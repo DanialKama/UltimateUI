@@ -7,7 +7,7 @@
 /**
  * Used for settings related to audio
  */
-USTRUCT(BlueprintType)
+USTRUCT(BlueprintType, meta = (DisplayName = "Audio Settings"))
 struct ULTIMATEUI_API FSettingsAudio
 {
 	GENERATED_BODY()

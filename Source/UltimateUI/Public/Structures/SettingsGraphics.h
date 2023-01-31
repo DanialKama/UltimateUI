@@ -7,7 +7,7 @@
 /**
  * Used for settings related to graphics
  */
-USTRUCT(BlueprintType)
+USTRUCT(BlueprintType, meta = (DisplayName = "Graphics Settings"))
 struct ULTIMATEUI_API FSettingsGraphics
 {
 	GENERATED_BODY()

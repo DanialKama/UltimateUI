@@ -7,7 +7,7 @@
 /**
  * Used for settings related to controls
  */
-USTRUCT(BlueprintType)
+USTRUCT(BlueprintType, meta = (DisplayName = "Controls Settings"))
 struct ULTIMATEUI_API FSettingsControls
 {
 	GENERATED_BODY()
