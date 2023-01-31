@@ -20,13 +20,13 @@ struct ULTIMATEUI_API FSettingsControls
 	bool SprintMode;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings|Controls")
-	bool InvertLookY;
+	bool InvertLook;
 	
 	FSettingsControls()
-		: ForceFeedback(true), SprintMode(true), InvertLookY(false)
+		: ForceFeedback(true), SprintMode(true), InvertLook(false)
 	{}
 
-	FSettingsControls(const bool InForceFeedback, const bool InSprintMode, const bool InInvertLookY)
-		: ForceFeedback(InForceFeedback), SprintMode(InSprintMode), InvertLookY(InInvertLookY)
+	FSettingsControls(const bool InForceFeedback, const bool InSprintMode, const bool InInvertLook)
+		: ForceFeedback(InForceFeedback), SprintMode(InSprintMode), InvertLook(InInvertLook)
 	{}
 };
