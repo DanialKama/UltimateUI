@@ -11,8 +11,8 @@ enum class ELoadingMode : uint8
 	// No loading
 	Idle	UMETA(DisplayName = "Idle"),
 
-	// Reloading the settings
-	Reload	UMETA(DisplayName = "Reload"),
+	// Loading the settings
+	Load	UMETA(DisplayName = "Load"),
 
 	// Resetting the settings
 	Reset	UMETA(DisplayName = "Reset")
