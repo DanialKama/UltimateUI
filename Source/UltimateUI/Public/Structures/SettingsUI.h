@@ -18,6 +18,7 @@ struct ULTIMATEUI_API FSettingsUI
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings|UI")
 	float CrosshairSize;
 	
+	/** Default constructor */
 	FSettingsUI()
 		: CursorSize(30.0f), CrosshairSize(4.0f)
 	{}

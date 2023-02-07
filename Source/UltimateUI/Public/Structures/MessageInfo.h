@@ -29,6 +29,7 @@ struct ULTIMATEUI_API FMessageInfo
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Message")
 	FText CancelButton;
 	
+	/** Default constructor */
 	FMessageInfo()
 		: Color(FColor::White), Label(FText::GetEmpty()), Description(FText::GetEmpty()), ConfirmButton(FText::GetEmpty()), CancelButton(FText::GetEmpty())
 	{}

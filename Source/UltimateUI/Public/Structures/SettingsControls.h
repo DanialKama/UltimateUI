@@ -13,15 +13,16 @@ struct ULTIMATEUI_API FSettingsControls
 	GENERATED_BODY()
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings|Controls")
-	bool ForceFeedback;
+	uint8 ForceFeedback : 1;
 
 	/** True = Toggle, False = Hold */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings|Controls")
-	bool SprintMode;
+	uint8 SprintMode : 1;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings|Controls")
-	bool InvertLook;
+	uint8 InvertLook : 1;
 	
+	/** Default constructor */
 	FSettingsControls()
 		: ForceFeedback(true), SprintMode(true), InvertLook(false)
 	{}

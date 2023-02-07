@@ -27,6 +27,7 @@ struct ULTIMATEUI_API FSettingsAudio
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings|Audio")
     float Menu;
 	
+	/** Default constructor */
 	FSettingsAudio()
 		: Master(1.0f), Ambient(1.0f), SFX(1.0f), Music(1.0f), Menu(1.0f)
 	{}

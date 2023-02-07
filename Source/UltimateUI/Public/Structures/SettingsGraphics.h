@@ -16,6 +16,7 @@ struct ULTIMATEUI_API FSettingsGraphics
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings|Graphics")
 	bool FrameRate;
 	
+	/** Default constructor */
 	FSettingsGraphics()
 		: FrameRate(false)
 	{}
