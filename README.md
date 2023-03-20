@@ -21,7 +21,7 @@ To set up this plugin correctly, make sure that Common UI Plugin is enabled then
 Instead of creating new classes to handle input actions, you can use the data table and classes that come with this plugin.
 
 ## Additional Notes
-You can access the demo and pictures of the project [here](https://mega.nz/folder/XbJHzR5L#Ex36KwHoW40S3A8vtIWpyA).  
+You can access the demo and pictures of the project [here](https://danialkama.itch.io/ultimateui).  
 If you have any questions or suggestions, please feel free to [message me](https://github.com/DanialKama#-connect-with-me).
 
 ## Credits
