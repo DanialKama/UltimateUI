@@ -16,5 +16,5 @@ void FUltimateUIModule::ShutdownModule()
 }
 
 #undef LOCTEXT_NAMESPACE
-	
+
 IMPLEMENT_MODULE(FUltimateUIModule, UltimateUI)
