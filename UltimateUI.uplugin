@@ -15,16 +15,6 @@
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
 	"Installed": true,
-	"Modules": [
-		{
-			"Name": "UltimateUI",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"PlatformAllowList": [
-				"Win64"
-			]
-		}
-	],
 	"Plugins": [
 		{
 			"Name": "CommonUI",
